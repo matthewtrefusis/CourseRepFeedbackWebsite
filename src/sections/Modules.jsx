@@ -1,37 +1,41 @@
 import { ArrowUpRight } from "lucide-react";
 
-const moduleResourcesUrl = "https://www.bb.reading.ac.uk/ultra/course";
-
 const modules = [
   {
     code: "CS1CA",
     semester: 1,
     title: "Computer Systems Architecture",
+    href: "https://www.reading.ac.uk/modules/documents?acyear=2026%252f7&modcode=CS1CA&schoolcode=MPS%7CMPS%20CS%7CMPS%20MATHST%7CMPS%20MET",
   },
   {
     code: "CS1IP",
     semester: 1,
     title: "Imperative Programming",
+    href: "https://www.reading.ac.uk/modules/documents?acyear=2026%252f7&modcode=CS1IP&schoolcode=MPS%7CMPS%20CS%7CMPS%20MATHST%7CMPS%20MET",
   },
   {
     code: "CS1MA",
     semester: 1,
     title: "Mathematics and Computation",
+    href: "https://www.reading.ac.uk/modules/documents?acyear=2026%252f7&modcode=CS1MA&schoolcode=MPS%7CMPS%20CS%7CMPS%20MATHST%7CMPS%20MET",
   },
   {
     code: "CS1AC",
     semester: 2,
     title: "Applications of Computer Science",
+    href: "https://www.reading.ac.uk/modules/documents?acyear=2026%252f7&modcode=CS1AC&schoolcode=MPS%7CMPS%20CS%7CMPS%20MATHST%7CMPS%20MET",
   },
   {
     code: "CS1DB",
     semester: 2,
     title: "Databases",
+    href: "https://www.reading.ac.uk/modules/documents?acyear=2026%252f7&modcode=CS1DB&schoolcode=MPS%7CMPS%20CS%7CMPS%20MATHST%7CMPS%20MET",
   },
   {
     code: "CS1OP",
     semester: 2,
     title: "Object-Oriented Programming",
+    href: "https://www.reading.ac.uk/modules/documents?acyear=2026%252f7&modcode=CS1OP&schoolcode=MPS%7CMPS%20CS%7CMPS%20MATHST%7CMPS%20MET",
   },
 ];
 
@@ -59,9 +63,8 @@ export const Modules = () => {
             </h2>
           </div>
           <p className="max-w-sm text-sm leading-6 text-foreground/80">
-            Module codes and semesters are listed here. Cards open the shared
-            Reading Ultra course area; direct module links can be added when
-            available.
+            Module codes and semesters are listed here. Cards open the module
+            information on the University of Reading website.
           </p>
         </div>
 
@@ -69,7 +72,7 @@ export const Modules = () => {
           {modules.map((module, index) => (
             <a
               key={module.code}
-              href={moduleResourcesUrl}
+              href={module.href}
               target="_blank"
               rel="noreferrer"
               data-reveal

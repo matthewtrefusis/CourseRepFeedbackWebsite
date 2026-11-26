@@ -5,10 +5,7 @@ export const Hero = () => {
       className="overflow-hidden bg-foreground px-5 py-12 text-white md:px-8 md:py-16"
     >
       <div className="container mx-auto grid max-w-6xl items-center gap-8 lg:grid-cols-[1.05fr_0.95fr] lg:gap-5">
-        <div
-          className="relative z-10 py-4 sm:py-10"
-          data-reveal="left"
-        >
+        <div className="relative z-10 py-4 sm:py-10" data-reveal="left">
           <p className="mb-7 inline-flex items-center gap-2 text-xs font-black uppercase tracking-[0.2em] text-white">
             <span className="inline-block h-2.5 w-7 skew-x-[-22deg] bg-primary" />
             Reading CS <span className="text-white/70">//</span> Year 01
@@ -47,21 +44,7 @@ export const Hero = () => {
           style={{ transitionDelay: "120ms" }}
           aria-label="Year one computer science student voice graphic"
         >
-          <span className="hero-speed-lines" aria-hidden="true" />
-          <div className="hero-art-copy">
-            <p className="text-xs font-black uppercase tracking-[0.24em] text-white">
-              Student voice
-            </p>
-            <span className="hero-number">01</span>
-            <p className="text-sm font-black uppercase tracking-[0.25em] text-white">
-              No comment too small
-            </p>
-          </div>
-          <span className="hero-sticker" aria-hidden="true">
-            CS
-            <br />
-            rep
-          </span>
+          <span className="hero-number">01</span>
         </aside>
       </div>
     </section>

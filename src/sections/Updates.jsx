@@ -3,21 +3,20 @@ const updateStages = [
     number: "01",
     title: "You said",
     description:
-      "Students appreciated clear teaching, Blackboard materials available ahead of time, and resources like NotebookLM, focus timers, peer study, and Rocketbook. Concerns included commuter costs and motivation around a single Thursday lecture, long Monday sessions, and some explanations feeling hard to follow. Students also asked about past papers; the University archive was shared, though its collection is limited.",
+      "Students appreciated clear teaching, Blackboard materials available ahead of time, and resources like NotebookLM, focus timers and peer study. Concerns included commuter costs and motivation around a single Thursday lecture, long Monday sessions, and some explanations feeling hard to follow. Students also asked about past papers; the University archive was shared, though its collection is limited.",
     label: "Student feedback themes",
   },
   {
     number: "02",
     title: "We raised",
     description:
-      "The course chair said he would raise concerns about the Thursday lecture and a Monday with four hours of lectures; the Monday concern had already been raised. There was also a commitment to speak with Hong Wei about creating a cheat sheet for CS1CA.",
+      "The commitee chair said he would raise concerns about the Thursday lecture and a Monday with four hours of lectures; the Monday concern had already been raised. There was also a commitment to speak with Hong Wei about creating a cheat sheet for CS1CA.",
     label: "Course meeting update",
   },
   {
     number: "03",
     title: "What changed",
-    description:
-      "Confirmed responses and actions will be shared here.",
+    description: "Confirmed responses and actions will be shared here.",
     label: "Update to be added",
   },
 ];
